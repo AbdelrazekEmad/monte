@@ -1,0 +1,16 @@
+.banar {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../assets/img/banner/banner.jpg);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  span {
+    a{
+        color: $main-color;
+    }
+  }
+}

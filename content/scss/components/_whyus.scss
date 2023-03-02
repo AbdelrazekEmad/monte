@@ -1,0 +1,40 @@
+.why-us {
+  position: relative;
+  &__image {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    #{$s}: 0;
+    background-image: url(../assets/img/services/services.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  &__content {
+    padding-block: 5rem;
+    margin-inline-start: 50%;
+    padding-inline: 2rem;
+    background-color: black;
+    & ul li {
+      margin-top: 1rem;
+    }
+    & ul li::before {
+      content: "\f00c ";
+      font: var(--fa-font-solid);
+      color: $main-color;
+      margin-inline-end: 0.5rem;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .why-us__image {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+  }
+  .why-us__content {
+    padding-block: 2rem;
+    margin-inline-start: 0;
+  }
+}

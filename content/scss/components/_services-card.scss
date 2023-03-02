@@ -1,0 +1,40 @@
+.services__card__content {
+  text-align: start;
+  p {
+    font-size: 13px;
+  }
+}
+.services__card__num {
+  padding-top: 10px;
+  font-weight: 700;
+  &::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: $main-color;
+  }
+}
+.services__card__img {
+  position: relative;
+  .services__img--overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    background-color: #f7ab26b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    transition: width 0.4s ease-in-out;
+    i {
+      display: none;
+    }
+  }
+}
+.services__card__img:hover .services__img--overlay {
+  width: 100%;
+  i {
+    display: block;
+  }
+}

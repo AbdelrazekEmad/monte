@@ -1,0 +1,28 @@
+// abstracts
+@import "abstracts/variables";
+
+// base
+@import "base/base";
+@import "base/reset";
+
+// components
+@import "components/upperbar";
+@import "components/buttons";
+@import "components/main-heading";
+@import "components/features-card";
+@import "components/services-card";
+@import "components/whyus";
+@import "components/banar";
+@import "components/numbers";
+@import "components/number__heading";
+
+// layout
+@import "layout/navigation";
+@import "layout/header";
+@import "layout/footer";
+
+// pages
+@import "pages/home";
+@import "pages/about-page";
+@import "pages/contact-us";
+@import "pages/services-page";

@@ -1,0 +1,22 @@
+.sub__heading {
+  text-transform: uppercase;
+  color: $main-color;
+  font-size: 14px;
+  font-weight: bold;
+}
+.main__heading {
+  font-weight: 700;
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 20px;
+    background-color: $main-color;
+    margin: 0.5rem auto;
+  }
+}
+.normal {
+  &::after {
+    margin: 0.5rem 0 !important;
+  }
+}

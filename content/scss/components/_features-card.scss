@@ -1,0 +1,25 @@
+.features__card {
+  text-align: center;
+  &__icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    transition: all 0.5s ease-in-out;
+    i {
+      color: white;
+      font-size: 2.5rem;
+    }
+  }
+  h5 {
+    font-weight: 600;
+  }
+  &:hover .features__card__icon {
+    background-color: $main-color;
+  }
+}

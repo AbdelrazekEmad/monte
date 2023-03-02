@@ -1,0 +1,47 @@
+.icon__boxes {
+  .icon__box {
+    display: flex;
+    margin-bottom: 1rem;
+    .icon {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $main-color;
+      i {
+        font-size: 2rem;
+        color: white;
+      }
+    }
+  }
+  .icon__box__content {
+    margin-inline-start: 1rem;
+    h6 {
+      font-weight: bold;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+}
+.social__boxes {
+  display: flex;
+  .social__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin-inline-end: 0.25rem;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    a {
+      color: white;
+    }
+    &:hover {
+      background-color: $main-color;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+footer {
+  ul li {
+    margin-bottom: 1rem;
+    i {
+      color: $main-color;
+    }
+    color: #b9b9b9;
+  }
+  .copyright {
+    padding: 1rem;
+    border-top: 1px solid $main-color;
+    text-align: center;
+    color: white;
+    a {
+      color: $main-color;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.number__heading {
+  position: relative;
+  .number {
+    position: absolute;
+    font-size: 2.5rem;
+    color: #e9e9e9;
+    z-index: -1;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 0.5;
+  }
+}

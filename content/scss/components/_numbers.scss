@@ -1,0 +1,18 @@
+.numbers {
+  &__bg__darker {
+    background-color: #222121;
+  }
+  &__bg__lighter {
+    background-color: #262626;
+  }
+  i {
+    font-size: 4rem;
+    color: $main-color;
+    padding: 0.75rem;
+  }
+  h3,
+  h5 {
+    color: white;
+    font-weight: bold;
+  }
+}

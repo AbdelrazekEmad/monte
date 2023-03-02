@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte</title>
+    <!-- Css CDN for Bootstrap v5.3.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Css CDN for Font Awesome v6.3.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css Owl carousel CDN v2.3.4  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="./content/css/main-ltr.css">
+</head>
+
+<body>
+
+    <!-- Start UpperBar -->
+    <div class="upperbar py-1">
+        <div class="container">
+            <div class="row flex-column flex-md-row text-center text-md-start align-items-center">
+                <div class="col">
+                    <ul class="list-unstyled">
+                        <li><a class="text__color" href=""><i class="fa-solid fa-phone"></i> (+10) 123 456 7899 </a>
+                        </li>
+                        <li><a class="text__color" href=""><i class="fa-regular fa-envelope"></i> companymail@gmail.com
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <button class="btn quote__btn"><a href="">Get A Quote</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Start Hero -->
+    <section class="hero">
+        <section class="header">
+            <div class="container bg-white">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <a href="./index.html"><img src="./content/assets/img/logo/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-8 d-none d-lg-block">
+                        <nav class="desktop-nav d-none d-lg-flex justify-content-between">
+                            <ul class="navslist ms-auto p-0">
+                                <li><a class="active" href="./index.html">Home</a></li>
+                                <li><a href="./services/services.html">Services</a></li>
+                                <li><a href="./about-us/about.html">About us</a></li>
+                                <li><a href="./contact/contact.html">Contact us</a></li>
+                                <li><a href="./index-ar.html"><i class="fa-solid fa-language"></i> Ar</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col d-block d-lg-none">
+                        <button class="hamburger">
+                            <div class="bar"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="owl-carousel-hero owl-carousel owl-theme position-relative">
+            <div class="item slider-1">
+                <div class="hero__content">
+                    <h2>Al-Saeed Company for Kitchens.</h2>
+                    <h1>Because you deserve the best and the highest quality</h1>
+                    <span>Choose your kitchen now and guarantee the quality</span>
+                    <button class="btn"><a class="text_main_color" href="./contact/contact.html">Ask for a preview
+                            now.</a></button>
+                </div>
+            </div>
+            <div class="item slider-2">
+                <div class="hero__content">
+                    <h2>Al-Saeed Company for Kitchens.</h2>
+                    <h1>Because you deserve the best and the highest quality</h1>
+                    <span>Choose your kitchen now and guarantee the quality</span>
+                    <button class="btn"><a href="./contact/contact.html">Ask for a preview now.</a></button>
+                </div>
+            </div>
+            <div class="item slider-3">
+                <div class="hero__content">
+                    <h2>Al-Saeed Company for Kitchens.</h2>
+                    <h1>Because you deserve the best and the highest quality</h1>
+                    <span>Choose your kitchen now and guarantee the quality</span>
+                    <button class="btn"><a class="text_main_color" href="./contact/contact.html">Ask for a preview
+                            now.</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start mobile navigation  -->
+    <div class="mobile-nav__overlay"></div>
+    <nav class="mobile-nav">
+        <span class="closing_btn"><i class="fa-solid fa-xmark"></i></span>
+        <a class="d-block text-center" href="./index.html"><img src="./content/assets/img/logo/logo-2.png" alt=""></a>
+        <ul class="mobile-nav__list m-0 p-0 py-2">
+            <a class="active" href="./index.html">Home</a>
+            <a href="./services/services.html">Services</a>
+            <a href="./about-us/about.html">About us</a>
+            <a href="./contact/contact.html">Contact us</a>
+            <a href="./index-ar.html">عربي</a>
+        </ul>
+    </nav>
+
+    <!-- Start About us section  -->
+    <section class="aboutus__section py-5">
+        <div class="container d-flex flex-column align-items-center">
+            <span class="sub__heading">Know Our Story </span>
+            <h2 class="main__heading">Al-Saeed Kitchen Company </h2>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-10 text-center">
+                    <p>More than 50 years ago, we started designing and making wooden kitchens with experienced and
+                        highly
+                        experienced bases.<br>
+                        To produce high-quality kitchens using the best types of wood-treated and anti-damage<br>
+                        We promise to continue to provide the best products to ensure you have high quality at
+                        competitive
+                        prices, based on extensive experience in the industry and by enabling innovative engineering
+                        minds that
+                        provide the best services to you.
+                    </p>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Features  -->
+    <section class="features pt-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="features__card">
+                        <div class="features__card__icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <div class="features__card__content">
+                            <h5>Design accuracy</h5>
+                            <p>The accuracy of the design is the most important thing that distinguishes us because we
+                                care about every detail of your kitchen, from the first choice of the appropriate type
+                                of wood to its design by specialized hands and international designs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="features__card">
+                        <div class="features__card__icon"><i class="fa-solid fa-umbrella"></i></div>
+                        <div class="features__card__content">
+                            <h5>Execution quality</h5>
+                            <p>We guarantee high quality in the implementation of our products because we use the latest
+                                equipment with professional hands.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="features__card">
+                        <div class="features__card__icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <div class="features__card__content">
+                            <h5>Speed ​​and accuracy of delivery</h5>
+                            <p>Not only about quality and accuracy but care about fast and accurate delivery while
+                                ensuring the quality of the products.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Services  -->
+    <section class="services-section py-5">
+        <div class="container text-center">
+            <span class="sub__heading">Our services</span>
+            <h2 class="main__heading">What we offer you</h2>
+            <p>We offer you several services, including.</p>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="services__card">
+                        <div class="services__card__img mb-3">
+                            <a href="#" class="services__img--overlay"><i
+                                    class="fa-solid fa-right-long text-white"></i></a>
+                            <img class="img-fluid w-100" src="./content/assets/img/services/services.png" alt="">
+                        </div>
+                        <div class="services__card__content">
+                            <span class="services__card__num">01</span>
+                            <h5 class="fw-bold mt-3">Design and implementation of kitchens</h5>
+                            <p>We provide you with the design and implementation of different types of wooden kitchens
+                                for all spaces, with different shapes and additions. Other types of wood are used</p>
+                            <button class="btn btn__readmore">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="services__card">
+                        <div class="services__card__img mb-3">
+                            <a href="#" class="services__img--overlay"><i
+                                    class="fa-solid fa-right-long text-white"></i></a>
+                            <img class="img-fluid w-100" src="./content/assets/img/services/services2.png" alt="">
+                        </div>
+                        <div class="services__card__content">
+                            <span class="services__card__num">02</span>
+                            <h5 class="fw-bold mt-3">Kitchen cupboards</h5>
+                            <p>Design and implementation of kitchen cabinets of all sizes and designs and using
+                                different types of wood against ambient changes</p>
+                            <button class="btn btn__readmore">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="services__card">
+                        <div class="services__card__img mb-3">
+                            <a href="#" class="services__img--overlay"><i
+                                    class="fa-solid fa-right-long text-white"></i></a>
+                            <img class="img-fluid w-100" src="./content/assets/img/services/services3.png" alt="">
+                        </div>
+                        <div class="services__card__content">
+                            <span class="services__card__num">03</span>
+                            <h5 class="fw-bold mt-3">Laundromats</h5>
+                            <p>Wooden laundries are a unique piece of art, and at Al Saeed Kitchen Company, we provide
+                                you with high-quality wooden laundries that are harmless over time with unique designs.
+                            </p>
+                            <button class="btn btn__readmore">read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start why us  -->
+    <section class="why-us my-5">
+        <div class="why-us__image"></div>
+        <div class="why-us__content">
+            <h3 class="main__heading normal text-white m-0">Why choose Al-Saeed for kitchens? </h3>
+            <ul class="text-white">
+                <li>Your first choice for the best products.</li>
+                <li>We provide Saudi-made products with high-quality German technology that meets international
+                    standards.</li>
+                <li>We guarantee that you will get high-quality products at competitive prices.</li>
+                <li>We provide innovative designs to suit all tastes.</li>
+                <li>We are committed to accuracy in delivery.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Start Progress  -->
+    <section class="progress-section py-5">
+        <div class="container text-center">
+            <span class="sub__heading">How we work</span>
+            <h2 class="main__heading">Phases of our work</h2>
+            <div class="row">
+                <div class="col-5"><img class="img-fluid" src="./content/assets/img/idea.png" alt=""></div>
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <div class="number"><span>01</span></div>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="content ms-4 text-start">
+                        <h3 class="main__heading">Book an appointment from our site</h3>
+                        <p>You can now easily book an appointment by registering your data</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="content ms-4 text-start">
+                        <h3 class="main__heading">Free preview to select sizes and kitchen space </h3>
+                        <p>After you book an appointment from our site, specialists visit you to determine the
+                            appropriate sizes for the space to be placed in the kitchen, closet or laundry
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <div class="number"><span>02</span></div>
+                </div>
+                <div class="col-5"><img class="img-fluid" src="./content/assets/img/idea.png" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="col-5"><img class="img-fluid" src="./content/assets/img/idea.png" alt=""></div>
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <div class="number"><span>03</span></div>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="content ms-4 text-start">
+                        <h3 class="main__heading">Kitchen design, cabinet, or laundry </h3>
+                        <p>The design is done by specialized engineers to carry out the design you want easily,
+                            literally, and accurately
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="content ms-4 text-start">
+                        <h3 class="main__heading">Design Implementation</h3>
+                        <p>We execute the design with precision from our workers' craft to deliver the best products to
+                            our customers.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <div class="number"><span>04</span></div>
+                </div>
+                <div class="col-5"><img class="img-fluid" src="./content/assets/img/idea.png" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="col-5"><img class="img-fluid" src="./content/assets/img/idea.png" alt=""></div>
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <div class="number"><span>05</span></div>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="content ms-4 text-start">
+                        <h3 class="main__heading">Installation work</h3>
+                        <p>Specialized workers do the installation with high efficiency and skill.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer  -->
+    <footer class="pt-5 bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./content/assets/img/logo/logo-2.png" alt="">
+                    <h3 class="main__heading normal text-white">Al-Saeed Kitchen Company</h3>
+                    <p>Al-Saeed Kitchen Company was launched over 50 years ago to become a leader in designing and
+                        implementing kitchens, cupboards, and wooden Laundromats with skilled happiness and innovative
+                        minds.</p>
+                </div>
+                <div class="col">
+                    <h3 class="main__heading normal text-white">Address</h3>
+                    <ul cals>
+                        <li><i class="fa-solid fa-location-dot"></i> 60 Grant Ave. Carteret NJ 0708</li>
+                        <li><i class="fa-solid fa-phone"></i> (732) 803-01 03</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@companyname.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <span>&copy; You deserve the best from <a href="https://www.ocoda.com/" target="_blank">Ocoda</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQurey v3.6.3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Css Owl carousel CDN v2.3.4  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JS CDN for Bootstrap v5.3.0 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Main Script  -->
+    <script src="./content/Js/main.js"></script>
+    <!-- owl file initial  -->
+    <script src="./content/Js/owl.carousel-ltr.js"></script>
+</body>
+
+</html>

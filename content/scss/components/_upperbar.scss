@@ -1,0 +1,21 @@
+.upperbar {
+  background-color: #222222;
+  .row {
+    .col {
+      li {
+        font-size: 0.75rem;
+        display: inline-block;
+        padding-inline: 0.5rem;
+        &:first-child {
+          border-#{$e}: 2px solid $text-color;
+        }
+      }
+      &:first-child {
+        flex-grow: 5;
+      }
+      &:last-child {
+        flex-grow: 1;
+      }
+    }
+  }
+}
