@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css Owl carousel CDN v2.3.4  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Main Style Sheet -->
     <link rel="stylesheet" href="../content/css/main-rtl.css">
 </head>
@@ -32,7 +40,7 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <button class="btn quote__btn"><a href="">طلب سعر</a></button>
+                    <button class="btn quote__btn"><a href="../contact/contact-ar.html#form">طلب سعر</a></button>
                 </div>
             </div>
         </div>
@@ -67,7 +75,7 @@
             </div>
         </section>
         <div class="banar">
-            <h1 class="main__heading">شركة السعيد للمطابخ</h1>
+            <h1 class="main__heading">شركة مونتي للمطابخ والخزائن</h1>
             <span><a href="../index-ar.html">الصفحة الرئيسية</a> / خدماتنا</span>
         </div>
     </section>
@@ -93,7 +101,20 @@
         <div class="container">
             <div class="row pt-5 align-items-center row-cols-1 row-cols-md-2">
                 <div class="col">
-                    <img class="w-100" src="../content/assets/img/services/services.png" alt="">
+                    <div class="owl-carousel-service owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/kitchens/kitchen-1.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/kitchens/kitchen-2.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/kitchens/kitchen-3.webp" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="col mt-4 mt-md-0">
                     <div class="number__heading">
@@ -130,12 +151,42 @@
                             معنا</a></button>
                 </div>
                 <div class="col">
-                    <img class="w-100" src="../content/assets/img/services/services2.png" alt="">
+                    <div class="owl-carousel-service owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/cupboards/cupboards-1.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/cupboards/cupboards-2.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/cupboards/cupboards-3.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/cupboards/cupboards-4.webp" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row pt-5 align-items-center row-cols-1 row-cols-md-2">
                 <div class="col">
-                    <img class="w-100" src="../content/assets/img/services/services.png" alt="">
+                    <div class="owl-carousel-service owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/laundromats/Laundromats-1.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/laundromats/Laundromats-2.webp" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100 h-100 img-fluid"
+                                src="../content/assets/img/services/laundromats/Laundromats-3.webp" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="col mt-4 mt-md-0">
                     <div class="number__heading">
@@ -153,7 +204,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- start numbers  -->
     <section class="numbers mt-2">
         <div class="row">
@@ -212,12 +263,23 @@
             </div>
         </div>
     </footer>
+
+    <!-- jQurey v3.6.3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Css Owl carousel CDN v2.3.4  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- JS CDN for Bootstrap v5.3.0 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <!-- Main Script  -->
     <script src="../content/Js/main.js"></script>
+    <!-- owl file initial  -->
+    <script src="../content/Js/owl.carousel-rtl.js"></script>
 
 </body>
 

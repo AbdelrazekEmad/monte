@@ -4,8 +4,8 @@
   }
   ul {
     li {
-        margin-bottom: 5px;
-        font-size: 14px;
+      margin-bottom: 5px;
+      font-size: 14px;
     }
     span {
       background-color: $main-color;
@@ -15,5 +15,11 @@
       display: inline-block;
       text-align: center;
     }
+  }
+}
+
+.owl-carousel-service {
+  .item img {
+    height: 300px !important;
   }
 }

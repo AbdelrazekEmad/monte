@@ -109,13 +109,15 @@ textarea:focus {
 }
 
 .btn__readmore {
-  color: black;
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   padding: 0;
 }
-.btn__readmore:hover {
+.btn__readmore a {
+  color: black;
+}
+.btn__readmore a:hover {
   color: #f8aa27;
 }
 
@@ -196,6 +198,7 @@ textarea:focus {
 
 .services__card__img {
   position: relative;
+  height: 190px;
 }
 .services__card__img .services__img--overlay {
   position: absolute;
@@ -235,7 +238,7 @@ textarea:focus {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(../assets/img/services/services.png);
+  background-image: url(../assets/img/services/kitchens/kitchen-1.webp);
   background-size: cover;
   background-position: center center;
 }
@@ -647,4 +650,8 @@ footer .copyright a {
   height: 20px;
   display: inline-block;
   text-align: center;
+}
+
+.owl-carousel-service .item img {
+  height: 300px !important;
 }

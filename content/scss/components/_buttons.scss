@@ -30,12 +30,14 @@
   }
 }
 .btn__readmore {
-  color: black;
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   padding: 0;
-  &:hover {
-    color: $main-color;
+  a {
+    color: black;
+    &:hover {
+      color: $main-color;
+    }
   }
 }
