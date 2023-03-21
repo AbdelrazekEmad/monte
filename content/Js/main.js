@@ -27,7 +27,7 @@ window.onscroll = function () {
   // change navbar visabilty
   if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
     document.querySelector(".header").style.position = "fixed";
-} else {
+  } else {
     document.querySelector(".header").style.position = "absolute";
   }
 
